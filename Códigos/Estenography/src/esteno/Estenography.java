@@ -64,6 +64,10 @@ public class Estenography extends JFrame{
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setTitle("STGX - Esteganografia");
 		
+		ImageIcon icon;
+		icon = new ImageIcon(getClass().getResource("img.png"));
+		this.setIconImage(icon.getImage());
+		
 		panel = new JLabel();
 		panel.setText("<html><div style='width:300;height:160;background:black;'></div></html>");
 		panel.setBounds(0, 0, 300, 160);
